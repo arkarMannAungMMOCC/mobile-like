@@ -1,0 +1,56 @@
+{
+  "name": "mobile_like_web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "-": "^0.0.1",
+    "@craco/craco": "^7.0.0",
+    "@react-spring/web": "^9.6.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@use-gesture/react": "^10.2.23",
+    "axios": "^1.2.2",
+    "cra-template-pwa": "2.0.0",
+    "gh-pages": "^4.0.0",
+    "postcss-custom-properties-fallback": "^1.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "5.0.1",
+    "react-sheet-slide": "^1.2.2",
+    "react-spring-bottom-sheet": "^3.4.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "web-vitals": "^3.1.0"
+  }
+}
